@@ -110,7 +110,7 @@ public class SortingPanel extends CustomPanel {
 		Stroke old = g2d.getStroke();
 		g2d.setStroke(new BasicStroke(BAR_STROKE_THICKNESS));
 		
-		g2d.setColor(Color.CYAN);
+		g2d.setColor(Color.ORANGE);
 		
 		double x, y;
 		for(int i = 0; i < size; i++) {

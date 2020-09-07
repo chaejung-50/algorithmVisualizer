@@ -47,7 +47,7 @@ public class Menu extends CustomPanel {
 
 	public static final int MIN_SPEED_SLIDER_VAL = 10, 
 							MAX_SPEED_SLIDER_VAL = 1000, 
-							INIT_SPEED_SLIDER_VAL = 500,
+							INIT_SPEED_SLIDER_VAL = 50,
 							SPEED_SLIDER_MINOR_TICK = 10,
 							SPEED_SLIDER_MAJOR_TICK = 250;
 	

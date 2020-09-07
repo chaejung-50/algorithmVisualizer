@@ -14,7 +14,6 @@ public enum SortingAlgorithm {
 	
 	NO_ALGORITHM(),
 	INSERTION_SORT(new InsertionSort(), new String[] {"\u03a9(n)", "\u0398(n^2)", "\u039f(n^2)"}, "\u039f(1)"),
-	SELECTION_SORT(new SelectionSort(), new String[] {"\u03a9(n^2)", "\u0398(n^2)",	"\u039f(n^2)"},	"\u039f(1)"),
 	BUBBLE_SORT(new BubbleSort(), new String[] {"\u03a9(n)", "\u0398(n^2)", "\u039f(n^2)"},	"\u039f(1)"),
 	MERGE_SORT(new MergeSort(), new String[] {"\u03a9(n log(n))", "\u0398(n log(n))", "\u039f(n log(n))"}, "\u039f(n)"),
 	QUICK_SORT(new QuickSort(), new String[] {"\u03a9(n log(n))", "\u0398(n log(n))", "\u039f(n^2)"}, "\u039f(log(n))"),
@@ -115,8 +114,6 @@ public enum SortingAlgorithm {
 		switch(text) {
 		case "INSERTION SORT":
 			return INSERTION_SORT;
-		case "SELECTTION SORT":
-			return SELECTION_SORT;
 		case "BUBBLE SORT":
 			return BUBBLE_SORT;
 		case "MERGE SORT":
